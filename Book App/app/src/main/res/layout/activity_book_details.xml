@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mujta.bookapp.BookDetailsActivity">
+
+    <TextView
+        android:id="@+id/bookTitle"
+        android:layout_width="201dp"
+        android:layout_height="62dp"
+        android:layout_above="@+id/bookAuthor"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual"
+        android:text="title"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/bookAuthor"
+        android:layout_width="101dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/bookIsbn"
+        android:layout_alignStart="@+id/btnShare"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="casual"
+        android:text="author"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/bookIsbn"
+        android:layout_width="117dp"
+        android:layout_height="24dp"
+        android:layout_alignBottom="@+id/bookYear"
+        android:layout_alignStart="@+id/bookYear"
+        android:layout_marginBottom="38dp"
+        android:fontFamily="casual"
+        android:paddingTop="5dp"
+        android:text="isbn"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/bookYear"
+        android:layout_width="122dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/btnShare"
+        android:layout_alignStart="@+id/bookAuthor"
+        android:layout_marginBottom="21dp"
+        android:fontFamily="casual"
+        android:text="year"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/bookCover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp"
+        android:text="Share" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "983239656793",
+    "firebase_url": "https://book-application-2a993.firebaseio.com",
+    "project_id": "book-application-2a993",
+    "storage_bucket": "book-application-2a993.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983239656793:android:b9c8a55ecb6253f8",
+        "android_client_info": {
+          "package_name": "com.example.mujta.bookapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983239656793-5sjsd8vgk4h1mid0rq54bkgvtq6j4m29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSB1ZL_C3RgQxTkv9oDeXr8PmKp4yun5g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
